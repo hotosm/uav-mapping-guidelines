@@ -1,0 +1,15 @@
+languageCode = "en-us"
+title = "UAV Mapping Guidelines"
+theme = "book"
+DefaultContentLanguage = "en"
+relativeurls = true
+enableGitInfo = true
+
+[params]
+    BookRepo = "https://github.com/hotosm/uav-mapping-guidelines"
+    BookShowToC = false
+    BookEditPath = "/edit/master/content/"
+
+[imaging]
+    resampleFilter = "box"
+    quality = 75

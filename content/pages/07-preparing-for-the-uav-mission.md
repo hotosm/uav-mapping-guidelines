@@ -17,7 +17,7 @@ When on site, the following three tasks will be most time-consuming.
     2. _Reorganizing priorities due to weather or other unforeseen issues._ Although weather-related changes may be difficult to foresee, budgeting extra days for them can be helpful.
     3. _Processing and delivering the data._ This task is particularly important and should be given ample consideration. Based on experience during the Tropical Cyclone Gita response in Tonga, the recommended approach is to complete the delivery of data on site with at least one person working solely on post-processing. This approach is critical under tight deadlines, such as in post-disaster situations. 
 
-![alt_text](/images/Technical-Guidelines7.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines7.png)
 
 
 _Figure 5. Time needed for the steps of a UAV deployment as a share of the whole process.   \
@@ -28,7 +28,7 @@ As indicated by the red arrow, the actual flying of the platform occupies only a
 
 The selection of takeoff and landing sites is particularly important if a fixed-wing UAV is being operated. The type and size of platform will determine the area/space needed for landing procedures. An open space with an even surface (such as a sports field) is often ideal. Site selection should begin with a desktop assessment using maps and images, and then include an in-person visit to ensure that the location is suitable for takeoff and landing. 
 
-![alt_text](/images/Technical-Guidelines8.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines8.png)
 
 
 _Figure 6. A large, open field selected to launch and land the fixed-wing UAV in Tongatapu, Tonga._
@@ -42,7 +42,7 @@ The area of interest (AOI) where images will be collected is determined by the m
 
 Airspace designation charts published by CAAs show the classification of airspace and should always be consulted when determining if a UAV mission in the AOI is feasible. Once these factors are reviewed and AOI defined, the AOI polygon along with basic metadata on desired image specifications (e.g., target ground sample distance) can be exported from a GIS and used as input in the flight-planning and coordination software.
 
-![alt_text](/images/Technical-Guidelines9.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines9.jpg)
 
 
 _Figure 7. Mission planning for the LiDAR survey in Fiji during the October 2017 field testing._
@@ -60,7 +60,7 @@ When flying, UAV sensors collect images by frames. After the flight, the frames 
 
 Forward and side overlap — the amount of overlap between frames in the forward and lateral direction from the perspective of the platform’s direction of movement — must be properly handled to create seamless mosaics that represent the location of the features in the image. The highest overlap possible should be collected, with a **minimum forward overlap of 60 percent and minimum side overlap of 30 percent **to create a mosaic with good positional accuracy (_Figure 8_). During operations, there is a tradeoff between the time available for the survey and the overlap. The more overlap, the more time is required to complete the flying. **To produce accurate terrain models, a minimum forward overlap of 80 percent and a minimum side overlap of 75 percent are recommended** to maximize the number of observations of landscape features.
 
-![alt_text](/images/Technical-Guidelines10.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines10.jpg)
 
 
 _Figure 8. Recommended forward and side overlaps to create a mosaic with good positional accuracy.  _
@@ -73,7 +73,7 @@ Flight altitude should be set at a fixed value above mean sea level for areas wi
 
 Several UAV vendors provide software to design and create flight plans based on input AOI files, and UAV and camera specifications. These programs can be installed on laptop computers, tablet devices, and smartphones. These applications provide interactive methods for selecting the desired ground sample distance and overlap, as well as for optimizing flight patterns based on the maximum altitude (ceiling) allowed by law, aircraft speed, and camera specifications (sensor size and focal length).
 
-![alt_text](/images/Technical-Guidelines11.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines11.jpg)
 
 
 _Figure 9. Working with the Ground Control Station for mission planning and live monitoring of the flights_
@@ -94,7 +94,7 @@ The manual positioning of custom targets can be very time-consuming, as it requi
 
 _Figure 10. Placing of a ground control point. The accurate coordinates of this GCP are surveyed on the spot using high-accuracy GPS. _
 
-![alt_text](/images/Technical-Guidelines11a.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines11a.jpg)
 
 _Credit:_  _UAV4Resilience Challenge 2017_
 

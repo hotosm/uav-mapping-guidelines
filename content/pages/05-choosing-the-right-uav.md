@@ -276,7 +276,7 @@ In the context of small islands, or to cover areas of 10 km<sup>2</sup> and more
 Figure 4_ _shows the various UAV platforms available on the market, plotted according to the range, price, and ease of use. If budget is not an issue, use of several platforms could be considered according to the objectives and nature of the survey, where the user would select the optimal platform for the different objectives. **Small multi-rotor UAVs will be useful when quick deployments for aerial images over small areas are needed. Large fixed-wing UAVs lend themselves to large- area mapping.**
 
 
-![alt_text](/images/Technical-Guidelines6.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines6.png)
 
 
 _Figure 4. Price, range, and ease-of-use comparison of various UAV platforms available on the market._

@@ -9,7 +9,7 @@ The main challenge was to fly as quickly as possible while still meeting all reg
 
 As is often the case with emergency response flights when time is of the essence, a balance had to be struck between high absolute positional accuracy and speed of flying and post-processing. The UAV4R team compromised on positional accuracy in favor of faster flying and data processing. Having flown UAVs in Tonga just four months prior to the cyclone, the team already had a valid Part 102 New Zealand certificate to fly and also knew all the takeoff and landing sites, which saved time. 
 
-![alt_text](/images/Technical-Guidelines16.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines16.png)
 
 
 _Figure 15 Images showing pre- and post-event status of the same structures. _
@@ -39,7 +39,7 @@ The UAV data collected in Tonga following Tropical Cyclone Gita was used for sev
     This classification scheme is rather different from the three-class system (destroyed, damaged, not damaged) that engineers on the ground used, so it is difficult to compare the two sets of results. The ground survey by the National Emergency Management Office initially identified approximately 3,000 houses as damaged, whereas HOT estimated the number at around 2,500. Both sets of numbers must be taken with a pinch of salt, as both have continued to fluctuate. However, in terms of order of magnitude, the two are aligned. To improve the accuracy of housing damage assessments, and also to make the two approaches comparable, a unified damage classification scheme must be developed.
 
 
-![alt_text](/images/Technical-Guidelines17.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines17.png)
 
 
 

@@ -25,7 +25,7 @@ Most commercial UAV platforms come with a safety pre-flight and post-flight chec
 
 **Light and weather conditions are important.** To minimize shadows in the image, it is best to fly during the day when the sun angle is high. The color depth and tone of imagery is also best when collected in full sun. Clouds, even light haze, obscure the signal in the scene and make use of the imagery challenging, if not impossible. High or even moderate winds may likewise pose difficulties, as many light UAVs do not operate well in such conditions. The day and time chosen to collect the imagery is therefore critical. Data collection should ideally be done between 10 a.m. and 2 p.m. to minimize shadows and on a clear day to minimize haze and cloud effects; it should also take into account the limitations of the platform with respect to wind and operating range (Figure 11).
 
-![alt_text](/images/Technical-Guidelines12.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines12.jpg)
 
 
 _Figure 11. Checking conditions and following safety measures in the field._
@@ -56,7 +56,7 @@ After takeoff, the aircraft should be checked for any anomaly (through visual an
 Once the UAV has landed, images and GPS logs are transferred to a local device either through the radio link or by physically removing the storage medium (typically an SD card) from the aircraft for copying files to a laptop. When multiple flights are planned, data are transferred at the end of the mission and only the battery is swapped between flights. It is still important to sample image quality by transferring a few full resolution files from the camera to a device used for inspection. In case of any issue, the camera settings should be checked and adjusted.
 
 
-![alt_text](/images/Technical-Guidelines13.jpg "image_tooltip")
+![alt_text](/images/Technical-Guidelines13.jpg)
 
 
 _Figure 12. Launch of a multirotor UAV, which requires less open space than for a fixed wing._

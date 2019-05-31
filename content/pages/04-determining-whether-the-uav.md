@@ -115,7 +115,7 @@ a. The use of a high-end UAV will allow a larger area to be captured. In Tonga, 
 
 When selecting a survey method, the scale and extent of the area of interest must be considered, along with the technical constraints of the project, availability of surveying equipment (to establish GCPs), and the method’s cost-effectiveness. For instance, to acquire baseline imagery of large areas at a resolution of 50 cm/pixel with a capture window of one year, satellites are most practical. On the other hand, a UAV is preferable for mapping a small footprint (e.g., small pockets of high-flood-risk areas, or a small and remote island community). More often than not, a single method is not used exclusively; rather, the various survey methods are used in complement to one another. For example, a group of small islands can be surveyed using a satellite or full-size plane every five years, complemented with local UAV survey updates every six months. The important thing is to establish a strategy that best captures the necessary data in the most cost-effective way. 
 
-![alt_text](/images/Technical-Guidelines5.png "image_tooltip")
+![alt_text](/images/Technical-Guidelines5.png)
 
 
 Figure 2. Launching the Goshawk III Surveyor UAV by V-TOL Aerospace in Tonga.

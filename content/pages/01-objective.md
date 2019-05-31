@@ -39,7 +39,7 @@ RGB and RGB+ NIR
    </td>
    <td>
 
-<img src="/images/Technical-Guidelines0.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/images/Technical-Guidelines0.png" width="" alt="alt_text">
 
    </td>
    <td>General mapping, including delineating building footprints and road networks; location and geometric features of bridges and other key infrastructure, such as electricity/telephone poles, power lines; river embankments, bridges and land use and land cover. If an NIR channel is available, classification of vegetated areas, identification of permanent and temporary water bodies, etc. are possible.
@@ -60,7 +60,7 @@ RGB
    </td>
    <td>
 
-<img src="/images/Technical-Guidelines1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/images/Technical-Guidelines1.png" width="" alt="alt_text">
 
    </td>
    <td>Same as Challenge 1. 
@@ -83,7 +83,7 @@ Point cloud
    </td>
    <td>
 
-<img src="/images/Technical-Guidelines2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/images/Technical-Guidelines2.png" width="" alt="alt_text">
 
    </td>
    <td>Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.
@@ -102,7 +102,7 @@ Delta wing fixed-wing
    </td>
    <td>
 
-<img src="/images/Technical-Guidelines3.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="/images/Technical-Guidelines3.jpg" width="" alt="alt_text">
 
    </td>
    <td>Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc. 
@@ -121,7 +121,7 @@ Multirotor
    </td>
    <td>
 
-<img src="/images/Technical-Guidelines4.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/images/Technical-Guidelines4.png" width="" alt="alt_text">
 
    </td>
    <td>Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.  

@@ -31,11 +31,18 @@ def main():
                 if ext != '.md':
                     copyfile(os.path.join('content', item), os.path.join('pdf-build',item))
         # move image files
-        for path, _, files in os.walk('content/pages'):
-            for filename in files:
-                ext = os.path.splitext(filename)[1]
-                if ext != '.md':
-                    copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
+        if 'images' in os.listdir('content'):
+            for path, _, files in os.walk('content/images'):
+                for filename in files:
+                    ext = os.path.splitext(filename)[1]
+                    if ext != '.md':
+                        copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
+        else:
+            for path, _, files in os.walk('content/pages'):
+                for filename in files:
+                    ext = os.path.splitext(filename)[1]
+                    if ext != '.md':
+                        copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
         images = [f for f in os.listdir('pdf-build') if re.search(r'.*\.(jpe?g|png|gif)$', f)]
         for path, _, files in os.walk('content/pages'):
             for filename in files:

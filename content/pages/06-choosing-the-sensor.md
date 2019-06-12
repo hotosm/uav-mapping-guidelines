@@ -1,4 +1,10 @@
-# 6. Choosing the Sensor
+---
+
+title: 6. Choosing the Sensor
+weight: 7
+
+---
+
 
 Many survey mapping UAV platforms come with built-in or recommended cameras, which are already configured for optimal mapping outcomes. However, built-in cameras may also limit the user’s ability to customize optimal sensor configurations. 
 
@@ -9,7 +15,7 @@ The UAV’s flight altitude and sensor determine the spatial resolution of the i
 
 
 
-*   _Large detector size. _A larger detector size means that the imagery collected will be of higher quality or fidelity. This is in part because larger detectors are typically found in larger, higher-quality cameras, but also because larger detectors can collect more energy from a given pixel and therefore typically have a much higher signal-to-noise ratio.
+*   _Large detector size._ A larger detector size means that the imagery collected will be of higher quality or fidelity. This is in part because larger detectors are typically found in larger, higher-quality cameras, but also because larger detectors can collect more energy from a given pixel and therefore typically have a much higher signal-to-noise ratio.
 *   _Uncompressed image formats._ Many cameras record only compressed formats (JPG), which reduces the radiometric quality of the imagery. Sensors that are capable of recording in RAW, TIFF, or other uncompressed formats produce higher-quality images.
 *   _Trigger control._ Ideally, the camera shutter is triggered by an external system that records the location and time of each shot. This is typically the flight control system (autopilot) or a separate GPS sensor. Many professional-grade cameras have software that enables remote control, but consumer cameras often lack remote trigger ability unless custom modifications are made. For these consumer cameras, the shutter must be triggered continuously by time interval (though not all cameras have even this capability). If triggering by time interval is the only option, the sensor must have a buffer sufficient to enable continuous acquisition at the rate required to collect the forward overlap selected.
 *   _High-quality prime lenses._ When possible, high-quality prime lenses (i.e., lenses of fixed focal length) should be used. Many smaller sensors do not allow for the use of prime lenses. Where they are absent, the camera should be operated only at the extremes (minimum or maximum of the focal range) for digitally controlled “zoom”; or in the case of variable focal length lenses controlled manually, tape can be physically applied to the focus wheel to ensure that the focal length remains consistent throughout and between flights, which is critical for processing. Wide-angle lenses (~ < 24 mm in 35 mm equivalent) increase view angle distortions and can severely affect the geometric and radiometric quality of the resulting orthomosaic.

@@ -1,6 +1,11 @@
-# 7. Preparing for the UAV Mission
+---
 
- 
+title: 7. Preparing for the UAV Mission
+weight: 8
+
+---
+
+
 
 
 ## Time management
@@ -102,4 +107,6 @@ For countries that are serious about establishing UAVs as an accessible platform
 
 When the timeliness of the data is important, **setting up ground control points to achieve** **high absolute accuracy may not be cost- or time-effective.** In these situations, **a UAV equipped with an RTK or PPK system should be used instead.**
 
-_ _
+
+[^13]:
+     Imagery Coordination Service, [https://coordination.openaerialmap.org](https://coordination.openaerialmap.org)<span style="text-decoration:underline;">.</span> 

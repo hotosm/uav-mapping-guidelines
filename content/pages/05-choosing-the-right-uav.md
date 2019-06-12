@@ -1,4 +1,10 @@
-# 5. Choosing the Right UAV Platform 
+---
+
+title: 5. Choosing the Right UAV Platform 
+weight: 6
+
+---
+
 
 If a UAV is the right tool, the next decision concerns which platform to use. There are multiple factors to consider in making this choice: the purpose of the data capture, the weight of platform allowed by local regulations under the conditions of the intended survey location, the need for weatherproofing, and the project’s technical requirements (e.g., the type of sensor/camera needed for the survey). 
 
@@ -284,3 +290,16 @@ _Figure 4. Price, range, and ease-of-use comparison of various UAV platforms ava
 _Source:_ Based on experience from the UAV4Resilience Challenge, aerial surveys after cyclone Gita in Tonga, and informational interviews with professionals and manufacturers_. _
 
 Note: VTOL = Vertical Takeoff and Landing.
+
+
+
+[^10]:
+     The words Drones and UAV can be used interchangeably. 
+
+[^11]:
+
+     Choosing a system that has been in use for many years and has a good track record—rather than a prototype or new system—is recommended. 
+
+[^12]:
+
+     Heavy platforms are not recommended for new or inexperienced pilots due to the higher risk these platforms present.

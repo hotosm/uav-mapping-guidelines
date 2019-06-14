@@ -1,4 +1,10 @@
-# 1. Objective of This Guidance Note
+---
+
+title: 1. Objective of This Guidance Note
+weight: 2
+
+---
+
 
 The objective of this guidance note is to establish key principles for end use of unmanned aerial vehicles (UAVs) in a Pacific Island Country (PIC) context. The document addresses how, when, and for what applications UAVs should be used. For pilots who are new to UAV mapping, it also provides instructions and recommendations to ensure that imagery of high quality is generated for accurate integration with other geospatial layers. 
 
@@ -133,3 +139,13 @@ Multirotor
 _Source: _ _UAV4Resilience 2017_
 
 _Note:_ RGB = red-green-blue; NIR = near infrared; DEM = digital elevation model. The field tests used various types of UAVs. All orthomosaic outputs are available from OpenAerialMap.org.
+
+
+[^1]: 
+     Details on the field tests carried out to generate the five types of data products are in Table1.
+
+[^2]: 
+     The data size often runs into hundreds of gigabytes.
+
+[^3]: 
+     PacDID is a platform that leverages the OpenAerialMap (OAM) concept, making open imagery collected by satellites and UAVs easily available and accessible, particularly for the target audience in Pacific Island Countries. More information is available at Pacific Humanitarian Challenge (n.d.).

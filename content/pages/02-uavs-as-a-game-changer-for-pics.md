@@ -1,4 +1,10 @@
-# 2. UAVs as a Game Changer for PICs 
+---
+
+title: 2. UAVs as a Game Changer for PICs
+weight: 3
+
+---
+
 
 The Pacific region is one of the most disaster-prone regions of the world. It is subject to a variety of natural hazards, including floods, tropical cyclones, earthquakes, tsunamis, droughts, and volcanic eruptions. Geospatial data can play a key role in monitoring hazard conditions on the ground, but unique data collection challenges exist for PICs. Because these counties consist of multiple small islands or atolls that are often very remote from one another, it difficult to collect geospatial data at the appropriate scale for analysis. 
 

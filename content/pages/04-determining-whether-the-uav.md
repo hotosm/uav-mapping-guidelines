@@ -1,4 +1,10 @@
-# 4. Determining Whether the UAV Is the Right Mapping Tool 
+---
+
+title: 4. Determining Whether the UAV is the Right Mapping Tool
+weight: 5
+
+---
+
 
 UAVs may not always be the best mapping tool for a project. Before deciding whether to use a UAV, a satellite, or other tool, the project’s data needs, budget, and time frame must be understood. Table 2 lists some key factors to consider when deciding on the tool to use. 
 

@@ -1,4 +1,10 @@
-# 8. Managing Work Flow in the Field
+---
+
+title: 8. Managing Work Flow in the Field
+weight: 9
+
+---
+
 
 UAVs are often small enough to be carried in backpacks, but usually a motor vehicle such as a small pickup truck is used to carry the associated equipment, including the survey equipment (base station) if GCPs are being used. A vehicle also provides shelter in case of inclement weather, and the vehicle battery or cigarette lighter plug can be used to recharge UAV batteries and laptops in the field during long survey missions. 
 
@@ -30,7 +36,7 @@ Most commercial UAV platforms come with a safety pre-flight and post-flight chec
 
 _Figure 11. Checking conditions and following safety measures in the field._
 
-_Source: _ _PacDID. 2017_
+_Source:_ _PacDID. 2017_
 
 It is always important to modify settings to suit local lighting conditions prior to each flight. Preferred sensor settings are listed below** **(in order of preference where more than one setting appears).
 
@@ -61,4 +67,8 @@ Once the UAV has landed, images and GPS logs are transferred to a local device e
 
 _Figure 12. Launch of a multirotor UAV, which requires less open space than for a fixed wing._
 
-_Credit: _ _UAV4Resilience 2017_
+_Credit:_ _UAV4Resilience 2017_
+
+
+[^14]:
+     The safety officer may be a third person, or one of the two pilots who takes on this additional role. The safety officer is responsible for ensuring all pre-flight checks are followed and that conditions to fly are appropriate (i.e., wind and cloud ceiling at minimum thresholds, clear skies). Depending on the procedures that have been agreed, the safety officer may also be responsible for communications with ATC for airspace deconfliction. 

@@ -1,4 +1,12 @@
-# 3. Securing UAV Flight Authorization and Permits in the Pacific
+---
+
+title: 3. Securing UAV Flight
+weight: 4
+
+---
+
+
+# Securing UAV Flight Authorization and Permits in the Pacific
 
 Flying UAVs requires a thorough understanding of local and national civil aviation regulations. Many governments now provide specific provisions for UAV operations, including permits and licenses that must be obtained before even entering the country. To learn about countries’ specific requirements and rules for flying UAVs, the Global Drone Regulations Database is a good starting point.[^4]
 
@@ -38,3 +46,25 @@ If a flight goes beyond the Part 101 rules (e.g. fly above 400 ft), the pilot an
 To supplement these official regulations, the Humanitarian UAV Network (UAViators), a global volunteer organization of humanitarian UAV pilots, developed a code of conduct and a set of UAV mission best practices (uavcode.org) that should be incorporated when planning UAV mapping activities, particularly in the context of humanitarian projects.[^9] 
 
 The permit application process in Fiji is described in annex 1.
+
+
+
+[^4]:
+     Global Drone Regulations Database, [https://www.droneregulations.info](https://www.droneregulations.info)<span style="text-decoration:underline;">.</span> 
+
+[^5]:
+     Airshare, [https://www.airshare.co.nz](https://www.airshare.co.nz/).
+
+[^6]:
+     [https://www.caa.govt.nz/unmanned-aircraft/intro-to-part-102/](https://www.caa.govt.nz/unmanned-aircraft/intro-to-part-102/) 
+
+[^7]:
+
+     See Airshare, “4 Things You Need to Know about Flying Near an Aerodrome,”** **[https://www.airshare.co.nz/must-know/things-to-know-flying-near-an-aerodrome](https://www.airshare.co.nz/must-know/things-to-know-flying-near-an-aerodrome).
+
+[^8]:
+
+     See Airshare, “My Flights,” [https://www.airshare.co.nz/my-flights/plan-a-flight](https://www.airshare.co.nz/my-flights/plan-a-flight).
+
+[^9]:
+     See UAViators (n.d.) for the code of conduct and UAViators (2015) for a guide to best practices.

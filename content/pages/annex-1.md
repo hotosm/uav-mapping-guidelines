@@ -1,3 +1,10 @@
+---
+
+title: Annex 1
+weight: 14
+
+---
+
 # Annex 1. Applying for Approvals in Fiji and Tonga for October 2017 UAV Field Testing
 
 Fiji
@@ -7,11 +14,12 @@ CAA Fiji outlined the following path to obtaining necessary approvals for UAV op
 
 
 1. Submit completed Form OP138 to CAA, accompanied by the following documents: 
-*   Proposed pilots’ remote pilot licenses 
-*   Letter of intent from the sponsoring organization, such as the World Bank 
-*   UAV operations manual
-*   Third-party liability insurance cover letter
-2. Obtain permission from the operator of the airspace—i.e., Nadi Airport Tower (the air services provider at Nadi Airport for Airports Fiji Ltd.)—to operate up to 400 ft AGL via a NOTAM (Notice to Airmen) request.[^16]
+
+  *   Proposed pilots’ remote pilot licenses 
+  *   Letter of intent from the sponsoring organization, such as the World Bank 
+  *   UAV operations manual
+  *   Third-party liability insurance cover letter
+2. Obtain permission from the operator of the airspace—i.e., Nadi Airport Tower (the air services provider at Nadi Airport for Airports Fiji Ltd.)—to operate up to 400 ft AGL via a NOTAM (Notice to Airmen) request. [^16]
 3. File a TAF2000 form to obtain an import permit from the Telecommunications Authority of Fiji for all transmitting devices.[^17]
 
 After processing submitted materials, CAA Fiji granted the approval to operate up to 200 ft AGL. However, for permission to operate up to 400 ft AGL, Airports Fiji Ltd. required submission of a NOTAM and provided the standard NOTAM request form to be filled out. 

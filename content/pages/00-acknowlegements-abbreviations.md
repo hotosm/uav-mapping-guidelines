@@ -1,3 +1,9 @@
+---
+
+weight: 1
+
+---
+
 # Technical Guidelines for Small Island Mapping with UAVs
 
 © 2019 International Bank for Reconstruction and Development / International Development Association or The World Bank

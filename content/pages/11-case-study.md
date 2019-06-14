@@ -1,4 +1,11 @@
-# 11. Case Study: Post–Tropical Cyclone Gita Mission in Tonga
+---
+
+title: 11. Case Study
+weight: 12
+
+---
+
+# Post–Tropical Cyclone Gita Mission in Tonga
 
 On February 12, 2018, Tropical Cyclone Gita hit the island nation of Tonga as a Category 4 hurricane, causing major damage across Tongatapu, the main island, as well as the neighboring island of Eua. The total economic loss was estimated at approximately 38 percent of gross domestic product, triggering international support for long-term recovery. At the request of Tonga’s National Emergency Management Office, the UAV4Resilience (UAV4R) team deployed to Tonga to capture post-disaster UAV aerial images. 
 
@@ -12,9 +19,9 @@ As is often the case with emergency response flights when time is of the essence
 ![alt_text](/images/Technical-Guidelines16.png)
 
 
-_Figure 15 Images showing pre- and post-event status of the same structures. _
+_Figure 15 Images showing pre- and post-event status of the same structures._
 
-_Credit: Open Imagery Network contributors, UAV4R Team (World Bank and VTOL Aerospace) _
+_Credit: Open Imagery Network contributors, UAV4R Team (World Bank and VTOL Aerospace)_
 
 Moreover, the collection of baseline data only a few months before Tropical Cyclone Gita hit Tonga proved to be invaluable. It not only provided usable data for post-disaster comparison, thus facilitating accurate damage assessments; it also acted as a trial run for the actual disaster, thus enabling the development of procedures, location of suitable flight areas, and rectification of problems. Figure 15_ _shows an example of the same structure before and after the Cyclone.
 
@@ -34,7 +41,7 @@ The UAV data collected in Tonga following Tropical Cyclone Gita was used for sev
 
 
 
-*   _Crowdsourced building damage assessment by the Humanitarian OpenStreetMap Team (HOT).** **_The pre- and post-event UAV images were used to carry out a crowdsourced damage assessment. A small subset of volunteers from HOT were tasked with doing the visual interpretation of the damage to housing. A simple classification scheme was used: houses that appeared to be more than 50 percent damaged were labeled “destroyed,” and those that appeared to be less than 50 percent damaged were labeled “damaged” (Figure 16 ). 
+*   _Crowdsourced building damage assessment by the Humanitarian OpenStreetMap Team (HOT)._ The pre- and post-event UAV images were used to carry out a crowdsourced damage assessment. A small subset of volunteers from HOT were tasked with doing the visual interpretation of the damage to housing. A simple classification scheme was used: houses that appeared to be more than 50 percent damaged were labeled “destroyed,” and those that appeared to be less than 50 percent damaged were labeled “damaged” (Figure 16 ). 
 
     This classification scheme is rather different from the three-class system (destroyed, damaged, not damaged) that engineers on the ground used, so it is difficult to compare the two sets of results. The ground survey by the National Emergency Management Office initially identified approximately 3,000 houses as damaged, whereas HOT estimated the number at around 2,500. Both sets of numbers must be taken with a pinch of salt, as both have continued to fluctuate. However, in terms of order of magnitude, the two are aligned. To improve the accuracy of housing damage assessments, and also to make the two approaches comparable, a unified damage classification scheme must be developed.
 

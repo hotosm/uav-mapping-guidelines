@@ -86,72 +86,67 @@ https://github.com/hotosm/hugo-book
     
     <li>
       <a href="../../pages/01-objective/">
-    01 Objective</a>
+    1. Objective of This Guidance Note</a>
     </li>
     
     <li>
       <a href="../../pages/02-uavs-as-a-game-changer-for-pics/">
-    02 Uavs as a Game Changer for Pics</a>
+    2. UAVs as a Game Changer for PICs</a>
     </li>
     
     <li>
       <a href="../../pages/03-securing-uav-flight/">
-    03 Securing Uav Flight</a>
+    3. Securing UAV Flight</a>
     </li>
     
     <li>
       <a href="../../pages/04-determining-whether-the-uav/">
-    04 Determining Whether the Uav</a>
+    4. Determining Whether the UAV is the Right Mapping Tool</a>
     </li>
     
     <li>
       <a href="../../pages/05-choosing-the-right-uav/">
-    05 Choosing the Right Uav</a>
+    5. Choosing the Right UAV Platform</a>
     </li>
     
     <li>
       <a href="../../pages/06-choosing-the-sensor/" class="active">
-    06 Choosing the Sensor</a>
+    6. Choosing the Sensor</a>
     </li>
     
     <li>
       <a href="../../pages/07-preparing-for-the-uav-mission/">
-    07 Preparing for the Uav Mission</a>
+    7. Preparing for the UAV Mission</a>
     </li>
     
     <li>
       <a href="../../pages/08-managing-work-flow/">
-    08 Managing Work Flow</a>
+    8. Managing Work Flow in the Field</a>
     </li>
     
     <li>
       <a href="../../pages/09-after-the-flight/">
-    09 After the Flight</a>
+    9. After the Flight: Processing the Data</a>
     </li>
     
     <li>
       <a href="../../pages/10-handling-project-management/">
-    10 Handling Project Management</a>
+    10. Handling Project Management</a>
     </li>
     
     <li>
       <a href="../../pages/11-case-study/">
-    11 Case Study</a>
+    11. Case Study</a>
     </li>
     
     <li>
       <a href="../../pages/12-conclusions/">
-    12 Conclusions</a>
+    12. Conclusions</a>
     </li>
     
     <li>
       <a href="../../pages/annex-1/">
     Annex 1</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/footnotes/">
-    Footnotes</a>
     </li>
     
   </ul>
@@ -172,12 +167,12 @@ https://github.com/hotosm/hugo-book
     <img src="../../svg/menu.svg" />
   </label>
   <strong>
-    06 Choosing the Sensor</strong>
+    6. Choosing the Sensor</strong>
 </header>
 
       
 <article class="markdown">
-  <div class="markdown__header">  <h1></h1>
+  <div class="markdown__header">  <h1>6. Choosing the Sensor</h1>
     <a href="../../pdfs/06-choosing-the-sensor.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
@@ -188,8 +183,6 @@ https://github.com/hotosm/hugo-book
     </a>
   </div>
 
-<h1 id="6-choosing-the-sensor">6. Choosing the Sensor</h1>
-
 <p>Many survey mapping UAV platforms come with built-in or recommended cameras, which are already configured for optimal mapping outcomes. However, built-in cameras may also limit the user’s ability to customize optimal sensor configurations.</p>
 
 <h2 id="preferred-camera-specifications">Preferred camera specifications</h2>
@@ -197,7 +190,7 @@ https://github.com/hotosm/hugo-book
 <p>The UAV’s flight altitude and sensor determine the spatial resolution of the imagery. To put this another way, the focal length, sensor size (size of the chip that detects light), and density of detectors on that chip all influence the altitude required to collect data of a given spatial resolution (i.e., minimum resolvable object size). Most survey mapping UAVs use digital RGB cameras that capture imagery in the visible range of the light spectrum. When the camera can be selected separately, the following characteristics may be desirable:</p>
 
 <ul>
-<li>_Large detector size. _A larger detector size means that the imagery collected will be of higher quality or fidelity. This is in part because larger detectors are typically found in larger, higher-quality cameras, but also because larger detectors can collect more energy from a given pixel and therefore typically have a much higher signal-to-noise ratio.</li>
+<li><em>Large detector size.</em> A larger detector size means that the imagery collected will be of higher quality or fidelity. This is in part because larger detectors are typically found in larger, higher-quality cameras, but also because larger detectors can collect more energy from a given pixel and therefore typically have a much higher signal-to-noise ratio.</li>
 <li><em>Uncompressed image formats.</em> Many cameras record only compressed formats (JPG), which reduces the radiometric quality of the imagery. Sensors that are capable of recording in RAW, TIFF, or other uncompressed formats produce higher-quality images.</li>
 <li><em>Trigger control.</em> Ideally, the camera shutter is triggered by an external system that records the location and time of each shot. This is typically the flight control system (autopilot) or a separate GPS sensor. Many professional-grade cameras have software that enables remote control, but consumer cameras often lack remote trigger ability unless custom modifications are made. For these consumer cameras, the shutter must be triggered continuously by time interval (though not all cameras have even this capability). If triggering by time interval is the only option, the sensor must have a buffer sufficient to enable continuous acquisition at the rate required to collect the forward overlap selected.</li>
 <li><em>High-quality prime lenses.</em> When possible, high-quality prime lenses (i.e., lenses of fixed focal length) should be used. Many smaller sensors do not allow for the use of prime lenses. Where they are absent, the camera should be operated only at the extremes (minimum or maximum of the focal range) for digitally controlled “zoom”; or in the case of variable focal length lenses controlled manually, tape can be physically applied to the focus wheel to ensure that the focal length remains consistent throughout and between flights, which is critical for processing. Wide-angle lenses (~ &lt; 24 mm in 35 mm equivalent) increase view angle distortions and can severely affect the geometric and radiometric quality of the resulting orthomosaic.</li>
@@ -291,8 +284,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/0bb4ac65508ffeda9de134665fa5dfb26ded8257" title='Last modified May 31, 2019 03:21 UTC by Nate Smith' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 31, 2019
+    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/dfaff2fe5dc89364788a493e7843584b5452c5dc" title='Last modified June 12, 2019 22:00 UTC by Russ Biggs' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jun 12, 2019
     </a>
   </div>
   

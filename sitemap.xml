@@ -3,82 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/pages/00-acknowlegements-abbreviations/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/01-objective/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/02-uavs-as-a-game-changer-for-pics/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/03-securing-uav-flight/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/04-determining-whether-the-uav/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/05-choosing-the-right-uav/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/06-choosing-the-sensor/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/07-preparing-for-the-uav-mission/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/08-managing-work-flow/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/09-after-the-flight/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/10-handling-project-management/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/11-case-study/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/12-conclusions/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
     <loc>/pages/annex-1/</loc>
-    <priority>0</priority>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/pages/footnotes/</loc>
+    <loc>/</loc>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,6 +85,7 @@
   
   <url>
     <loc>/pages/</loc>
+    <lastmod>2019-06-12T16:00:48-06:00</lastmod>
     <priority>0</priority>
   </url>
   

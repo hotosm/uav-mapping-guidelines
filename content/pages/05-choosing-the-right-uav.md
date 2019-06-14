@@ -5,7 +5,6 @@ weight: 6
 
 ---
 
-
 If a UAV is the right tool, the next decision concerns which platform to use. There are multiple factors to consider in making this choice: the purpose of the data capture, the weight of platform allowed by local regulations under the conditions of the intended survey location, the need for weatherproofing, and the project’s technical requirements (e.g., the type of sensor/camera needed for the survey). 
 
 The choice of platform has a number of consequences:  

@@ -102,6 +102,9 @@ jobs:
       - attach_workspace:
           at: ~/build
       - run: touch .nojekyll
+      - run: 
+          name: Add custom domain
+          command: echo "uav-guidelines.openaerialmap.org" > CNAME
       - run:
           name: Install and configure dependencies
           command: |

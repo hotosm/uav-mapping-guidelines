@@ -5,8 +5,7 @@ weight: 4
 
 ---
 
-
-# Securing UAV Flight Authorization and Permits in the Pacific
+## Securing UAV Flight Authorization and Permits in the Pacific
 
 Flying UAVs requires a thorough understanding of local and national civil aviation regulations. Many governments now provide specific provisions for UAV operations, including permits and licenses that must be obtained before even entering the country. To learn about countries’ specific requirements and rules for flying UAVs, the Global Drone Regulations Database is a good starting point.[^4]
 

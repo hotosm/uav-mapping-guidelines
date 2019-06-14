@@ -5,9 +5,6 @@ weight: 13
 
 ---
 
-
-# 12. Conclusions
-
 The agility and versatility of UAVs as data collection platforms stand to significantly improve the availability of timely spatial data to small island countries. UAV technology should be harnessed to further improve resilience, risk reduction, and disaster response work in small island contexts. To ensure that this work can go forward, adequate capacity building, training, and preparation are needed. This Guidance Note has discussed the most important factors to take into account in using UAVs and UAV technology effectively. 
 
 Given the myriad of options available for platforms, software, and sensors, there exists no one-size-fits-all approach to UAVs. Instead, interested parties are encouraged to experiment with various systems and configurations while also building on best practices. The field is rapidly and constantly evolving; as new technology becomes available, it opens up new possibilities and optimizations in this work. 

@@ -1,10 +1,12 @@
 ---
 
-title: 1. Objective of This Guidance Note
+title: 1. Objective
 weight: 2
 
 ---
 
+
+## Objective of This Guidance Note
 
 The objective of this guidance note is to establish key principles for end use of unmanned aerial vehicles (UAVs) in a Pacific Island Country (PIC) context. The document addresses how, when, and for what applications UAVs should be used. For pilots who are new to UAV mapping, it also provides instructions and recommendations to ensure that imagery of high quality is generated for accurate integration with other geospatial layers. 
 

@@ -19,123 +19,14 @@ Flight itself constitutes only a small portion of the entire UAV operation (as e
 Table 7. Five Data Types Generated During UAV Field Testing in Tonga and Fiji 
 
 
-<table>
-  <tr>
-   <td><strong>Survey type/UAV platform</strong>
-   </td>
-   <td><strong>Area</strong>
-   </td>
-   <td><strong>Output/file type</strong>
-   </td>
-   <td><strong>Output example</strong>
-   </td>
-   <td><strong>Output use/application</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Small area (Challenge 1)
-<p>
-Fixed-wing 
-   </td>
-   <td>10 km<sup>2</sup>
-   </td>
-   <td>2D orthorectified mosaic 
-<p>
-RGB and RGB+ NIR 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
 
-<img src="/images/Technical-Guidelines0.png" width="" alt="alt_text">
-
-   </td>
-   <td>General mapping, including delineating building footprints and road networks; location and geometric features of bridges and other key infrastructure, such as electricity/telephone poles, power lines; river embankments, bridges and land use and land cover. If an NIR channel is available, classification of vegetated areas, identification of permanent and temporary water bodies, etc. are possible.
-   </td>
-  </tr>
-  <tr>
-   <td>Medium area (Challenge 2)
-<p>
-Fixed-wing with RGB camera
-   </td>
-   <td>50 km<sup>2</sup>
-   </td>
-   <td>2D orthorectified mosaic 
-<p>
-RGB 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
-
-<img src="/images/Technical-Guidelines1.png" width="" alt="alt_text">
-
-   </td>
-   <td>Same as Challenge 1. 
-   </td>
-  </tr>
-  <tr>
-   <td>Elevation
-<p>
-(Challenge 3)
-<p>
-Multirotor with LiDAR sensor 
-   </td>
-   <td>0.5 km<sup>2</sup>
-   </td>
-   <td>Surface model 
-<p>
-Point cloud
-<p>
-(GeoTIFF)
-   </td>
-   <td>
-
-<img src="/images/Technical-Guidelines2.png" width="" alt="alt_text">
-
-   </td>
-   <td>Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.
-   </td>
-  </tr>
-  <tr>
-   <td>Real-time, beyond line of sight (Challenge 4)
-<p>
-Delta wing fixed-wing 
-   </td>
-   <td>0.5 km<sup>2</sup> (10 km from take off location)
-   </td>
-   <td>Video, photos, orthomosaic 
-<p>
-(MP4, JPEG GeoTIFF)
-   </td>
-   <td>
-
-<img src="/images/Technical-Guidelines3.jpg" width="" alt="alt_text">
-
-   </td>
-   <td>Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc. 
-   </td>
-  </tr>
-  <tr>
-   <td>Bathymetry (Challenge 5)  
-<p>
-Multirotor
-   </td>
-   <td>0.5 km<sup>2</sup>
-   </td>
-   <td>Point cloud and DEM 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
-
-<img src="/images/Technical-Guidelines4.png" width="" alt="alt_text">
-
-   </td>
-   <td>Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.  
-   </td>
-  </tr>
-</table>
+|Survey type/UAV platform|Area|Output/file type|Output example|Output use/application|
+|--- |--- |--- |--- |--- |
+|Small area (Challenge 1) Fixed-wing|10 km2|2D orthorectified mosaic RGB and RGB+ NIR  (GeoTIFF)|![](/images/Technical-Guidelines0.png)|General mapping, including delineating building footprints and road networks; location and geometric features of bridges and other key infrastructure, such as electricity/telephone poles, power lines; river embankments, bridges and land use and land cover. If an NIR channel is available, classification of vegetated areas, identification of permanent and temporary water bodies, etc. are possible.|
+|Medium area (Challenge 2)Fixed-wing with RGB camera|50 km2|2D orthorectified mosaic RGB (GeoTIFF)|![](/images/Technical-Guidelines1.png)|Same as Challenge 1.|
+|Elevation (Challenge 3) Multirotor with LiDAR sensor|0.5 km2|Surface model Point cloud(GeoTIFF)|![](/images/Technical-Guidelines2.png)|Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.|
+|Real-time, beyond line of sight (Challenge 4) Delta wing fixed-wing|0.5 km2 (10 km from take off location)|Video, photos, orthomosaic (MP4, JPEG GeoTIFF)|![](/images/Technical-Guidelines3.jpg)|Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc.|
+|Bathymetry (Challenge 5) Multirotor|0.5 km2|Point cloud and DEM (GeoTIFF)|![](/images/Technical-Guidelines4.png)|Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.|
 
 
 _Source: _ _UAV4Resilience 2017_

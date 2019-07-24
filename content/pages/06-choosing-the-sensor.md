@@ -29,56 +29,12 @@ Ultimately, the payload capacity of available platforms will determine which cam
 Table 10. Comparison of RGB Cameras Used on Mapping UAVs
 
 
-<table>
-  <tr>
-   <td><strong>Camera</strong>
-   </td>
-   <td><strong>Sensor size</strong>
-   </td>
-   <td><strong>Resolution (MP)</strong>
-   </td>
-   <td><strong>Weight (g)</strong>
-   </td>
-   <td><strong>Price (US$)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://www.mapir.camera/collections/survey3">Mapir Survey3W</a>
-   </td>
-   <td>6.17 x 4.55 mm (1/2.3 in.)
-   </td>
-   <td>12 
-   </td>
-   <td>76 
-   </td>
-   <td>400
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6000-body-kit">Sony A6000</a>
-   </td>
-   <td>25.1×16.7 mm (APS-C)
-   </td>
-   <td>24 
-   </td>
-   <td>468 
-   </td>
-   <td>800
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/dslr/eos-5d-mark-iv">Canon EOS 5D Mark IV</a>
-   </td>
-   <td>36 x 24 mm (full frame)
-   </td>
-   <td>30 
-   </td>
-   <td>890 
-   </td>
-   <td>3,000
-   </td>
-  </tr>
-</table>
+
+|Camera|Sensor size|Resolution (MP)|Weight (g)|Price (US$)|
+|--- |--- |--- |--- |--- |
+|Mapir Survey3W|6.17 x 4.55 mm (1/2.3 in.)|12|76|400|
+|Sony A6000|25.1×16.7 mm (APS-C)|24|468|800|
+|Canon EOS 5D Mark IV|36 x 24 mm (full frame)|30|890|3,000|
 
 
 _Source: Information on cameras compiled from manufacturers' materials_

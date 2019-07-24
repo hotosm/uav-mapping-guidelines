@@ -18,9 +18,9 @@ When on site, the following three tasks will be most time-consuming.
 
 
 
-    1. _Finding an area of operation for takeoff and landing._ The operator should identify potential sites remotely (e.g., through existing satellite imagery) and dedicate a day or more to visually assessing whether the operation sites are acceptable (Figure 6).
-    2. _Reorganizing priorities due to weather or other unforeseen issues._ Although weather-related changes may be difficult to foresee, budgeting extra days for them can be helpful.
-    3. _Processing and delivering the data._ This task is particularly important and should be given ample consideration. Based on experience during the Tropical Cyclone Gita response in Tonga, the recommended approach is to complete the delivery of data on site with at least one person working solely on post-processing. This approach is critical under tight deadlines, such as in post-disaster situations. 
+1. _Finding an area of operation for takeoff and landing._ The operator should identify potential sites remotely (e.g., through existing satellite imagery) and dedicate a day or more to visually assessing whether the operation sites are acceptable (Figure 6).
+2. _Reorganizing priorities due to weather or other unforeseen issues._ Although weather-related changes may be difficult to foresee, budgeting extra days for them can be helpful.
+3. _Processing and delivering the data._ This task is particularly important and should be given ample consideration. Based on experience during the Tropical Cyclone Gita response in Tonga, the recommended approach is to complete the delivery of data on site with at least one person working solely on post-processing. This approach is critical under tight deadlines, such as in post-disaster situations. 
 
 ![alt_text](/images/Technical-Guidelines7.png)
 

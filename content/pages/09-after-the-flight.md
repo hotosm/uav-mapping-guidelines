@@ -17,68 +17,13 @@ As of 2018, the open source options for UAV imagery processing software are quit
 Table 11. Comparison of Popular UAV Image Processing Software Programs
 
 
-<table>
-  <tr>
-   <td><strong>Software</strong>
-   </td>
-   <td><strong>Options</strong>
-   </td>
-   <td><strong>License</strong>
-   </td>
-   <td><strong>Monthly / permanent price (US$)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>DroneDeploy
-   </td>
-   <td>Cloud
-   </td>
-   <td>Commercial
-   </td>
-   <td>399 (monthly only)
-   </td>
-  </tr>
-  <tr>
-   <td>Pix4Dmapper
-   </td>
-   <td>Desktop + cloud
-   </td>
-   <td>Commercial
-   </td>
-   <td>350 / 8,700
-   </td>
-  </tr>
-  <tr>
-   <td>Photoscan
-   </td>
-   <td>Desktop
-   </td>
-   <td>Commercial
-   </td>
-   <td>3,499 (permanent only)
-   </td>
-  </tr>
-  <tr>
-   <td>Correlator3D
-   </td>
-   <td>Desktop
-   </td>
-   <td>Commercial
-   </td>
-   <td>295 / 5,900
-   </td>
-  </tr>
-  <tr>
-   <td>OpenDroneMap
-   </td>
-   <td>Desktop
-   </td>
-   <td>Open Source
-   </td>
-   <td>Free
-   </td>
-  </tr>
-</table>
+|Software|Options|License|Monthly / permanent price (US$)|
+|--- |--- |--- |--- |
+|DroneDeploy|Cloud|Commercial|399 (monthly only)|
+|Pix4Dmapper|Desktop + cloud|Commercial|350 / 8,700|
+|Photoscan|Desktop|Commercial|3,499 (permanent only)|
+|Correlator3D|Desktop|Commercial|295 / 5,900|
+|OpenDroneMap|Desktop|Open Source|Free|
 
 
 _Source: Information on software compiled form manufacturers' materials_

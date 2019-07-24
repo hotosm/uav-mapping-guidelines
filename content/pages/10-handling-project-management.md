@@ -26,56 +26,12 @@ Managing a UAV project requires attention to a number of concerns:
 Table 12. Sample Sensor Types and Experts Needed for Various UAV Data Applications. Table created by the UAV4Resilience team.
 
 
-<table>
-  <tr>
-   <td><strong>Project type</strong>
-   </td>
-   <td><strong>Sensor type</strong>
-   </td>
-   <td><strong>Resolution</strong>
-   </td>
-   <td><strong>Accuracy</strong>
-   </td>
-   <td><strong>Experts</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Crop monitoring
-   </td>
-   <td>Red edge or multispectral
-   </td>
-   <td>As low as 30 cm/pixel
-   </td>
-   <td>5 m
-   </td>
-   <td>Remote sensing specialist; agronomist
-   </td>
-  </tr>
-  <tr>
-   <td>Urban mapping
-   </td>
-   <td>Standard RGB camera
-   </td>
-   <td>2–10 cm/pixel
-   </td>
-   <td>< 10 cm; requires use of GCP or RTK/PPK 
-   </td>
-   <td>Urban planner; machine learning specialist
-   </td>
-  </tr>
-  <tr>
-   <td>Disaster mapping
-   </td>
-   <td>Standard RGB camera
-   </td>
-   <td>10 cm/pixel<sup>a</sup>
-   </td>
-   <td>1 m
-   </td>
-   <td>Disaster recovery management specialist; machine learning specialist for damage assessment (if crowdsourcing is not used)
-   </td>
-  </tr>
-</table>
+
+|Project type|Sensor type|Resolution|Accuracy|Experts|
+|--- |--- |--- |--- |--- |
+|Crop monitoring|Red edge or multispectral|As low as 30 cm/pixel|5 m|Remote sensing specialist; agronomist|
+|Urban mapping|Standard RGB camera|2–10 cm/pixel|< 10 cm; requires use of GCP or RTK/PPK|Urban planner; machine learning specialist|
+|Disaster mapping|Standard RGB camera|10 cm/pixela|1 m|Disaster recovery management specialist; machine learning specialist for damage assessment (if crowdsourcing is not used)|
 
 
 a. UNICEF Malawi uses 7 cm/pixel resolution for flood mapping. 

@@ -12,108 +12,17 @@ UAVs may not always be the best mapping tool for a project. Before deciding whet
 Table 8. Comparison of Survey Mapping_ _Methods
 
 
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Satellite</strong>
-   </td>
-   <td><strong>Airplane</strong>
-   </td>
-   <td><strong>UAV</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Approximate area covered in a day</strong>
-   </td>
-   <td>10,000 km<sup>2</sup>
-   </td>
-   <td>750 km<sup>2</sup>
-   </td>
-   <td>10–25 km<sup>2 </sup>(for a UAV equivalent to an eBee)<sup>a</sup>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Detail level</strong>
-   </td>
-   <td>30–50 cm/pixel
-   </td>
-   <td>> 6–30 cm/pixel
-   </td>
-   <td>3–10 cm/pixel
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Cost per 10 km<sup>2</sup></strong>
-   </td>
-   <td>$$
-   </td>
-   <td>$$$
-   </td>
-   <td>$
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Cost per 1 million km<sup>2</sup></strong>
-   </td>
-   <td>$
-   </td>
-   <td>$$
-   </td>
-   <td>$$$$
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Time to deploy</strong>
-   </td>
-   <td>24 hours–1 week
-   </td>
-   <td>3 days
-   </td>
-   <td>24 hours (provided flight permits have been granted)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Ease of deployment</strong>
-   </td>
-   <td>Easy (once the satellite is in orbit)
-   </td>
-   <td>Medium
-   </td>
-   <td>Easy
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Blocked by clouds</strong>
-   </td>
-   <td>Yes
-   </td>
-   <td>Depends on altitude
-   </td>
-   <td>No (though may be blocked by fog and rain)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Blocked by wind</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>Yes
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Regulatory burden</strong>
-   </td>
-   <td>Low
-   </td>
-   <td>Medium–high
-   </td>
-   <td>High
-   </td>
-  </tr>
-</table>
+||Satellite|Airplane|UAV|
+|--- |--- |--- |--- |
+|Approximate area covered in a day|10,000 km2|750 km2|10–25 km2 (for a UAV equivalent to an eBee)a|
+|Detail level|30–50 cm/pixel|> 6–30 cm/pixel|3–10 cm/pixel|
+|Cost per 10 km2|$$|$$$|$|
+|Cost per 1 million km2|$|$$|$$$$|
+|Time to deploy|24 hours–1 week|3 days|24 hours (provided flight permits have been granted)|
+|Ease of deployment|Easy (once the satellite is in orbit)|Medium|Easy|
+|Blocked by clouds|Yes|Depends on altitude|No (though may be blocked by fog and rain)|
+|Blocked by wind|No|Yes|Yes|
+|Regulatory burden|Low|Medium–high|High|
 
 
 _Note: The number of $ denote relative costs: least costly ($) to most costly ($$$$)_

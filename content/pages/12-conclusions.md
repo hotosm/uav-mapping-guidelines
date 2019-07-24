@@ -12,7 +12,6 @@ Given the myriad of options available for platforms, software, and sensors, ther
 Last but not least: while the innovation around UAVs is surely exciting and experimentation is encouraged, the safety of airspace users and those on the ground is of utmost importance and should always take precedence over other objectives. Any serious UAV operator or user of UAV technology should seek professional training in how to fly responsibly in the relevant airspace. Exemplary and careful use of the technology will help build trust among the public, governments, and private sector and help ensure that UAV technology and related innovations can be used for beneficial applications going forward. Every operator has a role to play in shaping a responsible community of UAV operators. 
 
 
-# 
 
 
 # References and Other Resources

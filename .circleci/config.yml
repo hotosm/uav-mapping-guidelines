@@ -61,6 +61,9 @@ jobs:
       - run: 
           name: list files in public
           command: ls public
+      - run: 
+          name: list files in pdf-build
+          command: ls pdf-build
       - persist_to_workspace:
           root: .
           paths: [public, pdf-build]

@@ -196,121 +196,57 @@ https://github.com/hotosm/hugo-book
 <p>Table 7. Five Data Types Generated During UAV Field Testing in Tonga and Fiji</p>
 
 <table>
-  <tr>
-   <td><strong>Survey type/UAV platform</strong>
-   </td>
-   <td><strong>Area</strong>
-   </td>
-   <td><strong>Output/file type</strong>
-   </td>
-   <td><strong>Output example</strong>
-   </td>
-   <td><strong>Output use/application</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Small area (Challenge 1)
-<p>
-Fixed-wing 
-   </td>
-   <td>10 km<sup>2</sup>
-   </td>
-   <td>2D orthorectified mosaic 
-<p>
-RGB and RGB+ NIR 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
+<thead>
+<tr>
+<th>Survey type/UAV platform</th>
+<th>Area</th>
+<th>Output/file type</th>
+<th>Output example</th>
+<th>Output use/application</th>
+</tr>
+</thead>
 
-<img src="../../images/Technical-Guidelines0.png" width="" alt="alt_text">
+<tbody>
+<tr>
+<td>Small area (Challenge 1) Fixed-wing</td>
+<td>10 km2</td>
+<td>2D orthorectified mosaic RGB and RGB+ NIR  (GeoTIFF)</td>
+<td><img src="../../images/Technical-Guidelines0.png" alt="" /></td>
+<td>General mapping, including delineating building footprints and road networks; location and geometric features of bridges and other key infrastructure, such as electricity/telephone poles, power lines; river embankments, bridges and land use and land cover. If an NIR channel is available, classification of vegetated areas, identification of permanent and temporary water bodies, etc. are possible.</td>
+</tr>
 
-   </td>
-   <td>General mapping, including delineating building footprints and road networks; location and geometric features of bridges and other key infrastructure, such as electricity/telephone poles, power lines; river embankments, bridges and land use and land cover. If an NIR channel is available, classification of vegetated areas, identification of permanent and temporary water bodies, etc. are possible.
-   </td>
-  </tr>
-  <tr>
-   <td>Medium area (Challenge 2)
-<p>
-Fixed-wing with RGB camera
-   </td>
-   <td>50 km<sup>2</sup>
-   </td>
-   <td>2D orthorectified mosaic 
-<p>
-RGB 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
+<tr>
+<td>Medium area (Challenge 2)Fixed-wing with RGB camera</td>
+<td>50 km2</td>
+<td>2D orthorectified mosaic RGB (GeoTIFF)</td>
+<td><img src="../../images/Technical-Guidelines1.png" alt="" /></td>
+<td>Same as Challenge 1.</td>
+</tr>
 
-<img src="../../images/Technical-Guidelines1.png" width="" alt="alt_text">
+<tr>
+<td>Elevation (Challenge 3) Multirotor with LiDAR sensor</td>
+<td>0.5 km2</td>
+<td>Surface model Point cloud(GeoTIFF)</td>
+<td><img src="../../images/Technical-Guidelines2.png" alt="" /></td>
+<td>Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.</td>
+</tr>
 
-   </td>
-   <td>Same as Challenge 1. 
-   </td>
-  </tr>
-  <tr>
-   <td>Elevation
-<p>
-(Challenge 3)
-<p>
-Multirotor with LiDAR sensor 
-   </td>
-   <td>0.5 km<sup>2</sup>
-   </td>
-   <td>Surface model 
-<p>
-Point cloud
-<p>
-(GeoTIFF)
-   </td>
-   <td>
+<tr>
+<td>Real-time, beyond line of sight (Challenge 4) Delta wing fixed-wing</td>
+<td>0.5 km2 (10 km from take off location)</td>
+<td>Video, photos, orthomosaic (MP4, JPEG GeoTIFF)</td>
+<td><img src="../../images/Technical-Guidelines3.jpg" alt="" /></td>
+<td>Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc.</td>
+</tr>
 
-<img src="../../images/Technical-Guidelines2.png" width="" alt="alt_text">
-
-   </td>
-   <td>Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.
-   </td>
-  </tr>
-  <tr>
-   <td>Real-time, beyond line of sight (Challenge 4)
-<p>
-Delta wing fixed-wing 
-   </td>
-   <td>0.5 km<sup>2</sup> (10 km from take off location)
-   </td>
-   <td>Video, photos, orthomosaic 
-<p>
-(MP4, JPEG GeoTIFF)
-   </td>
-   <td>
-
-<img src="../../images/Technical-Guidelines3.jpg" width="" alt="alt_text">
-
-   </td>
-   <td>Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc. 
-   </td>
-  </tr>
-  <tr>
-   <td>Bathymetry (Challenge 5)  
-<p>
-Multirotor
-   </td>
-   <td>0.5 km<sup>2</sup>
-   </td>
-   <td>Point cloud and DEM 
-<p>
-(GeoTIFF)
-   </td>
-   <td>
-
-<img src="../../images/Technical-Guidelines4.png" width="" alt="alt_text">
-
-   </td>
-   <td>Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.  
-   </td>
-  </tr>
+<tr>
+<td>Bathymetry (Challenge 5) Multirotor</td>
+<td>0.5 km2</td>
+<td>Point cloud and DEM (GeoTIFF)</td>
+<td><img src="../../images/Technical-Guidelines4.png" alt="" /></td>
+<td>Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.</td>
+</tr>
+</tbody>
 </table>
 
 <p>_Source: _ <em>UAV4Resilience 2017</em></p>
@@ -342,8 +278,8 @@ Multirotor
   
   
   <div>
-    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/6e57ba3d8747c63772d60616a6ced8b207a185f4" title='Last modified June 14, 2019 15:25 UTC by Nate Smith' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 14, 2019
+    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/7a89dc0b206321e33053528169673e64ebe1f3e4" title='Last modified July 24, 2019 21:10 UTC by Russ Biggs' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 24, 2019
     </a>
   </div>
   

@@ -26,7 +26,7 @@ Table 7. Five Data Types Generated During UAV Field Testing in Tonga and Fiji
 |Medium area (Challenge 2)Fixed-wing with RGB camera|50 km2|2D orthorectified mosaic RGB (GeoTIFF)|![](/images/Technical-Guidelines1.png)|Same as Challenge 1.|
 |Elevation (Challenge 3) Multirotor with LiDAR sensor|0.5 km2|Surface model Point cloud(GeoTIFF)|![](/images/Technical-Guidelines2.png)|Inputs for flood modeling, drainage design, transportation design, coastal engineering, landslide modeling (susceptibility), and erosion monitoring for slope stability studies.|
 |Real-time, beyond line of sight (Challenge 4) Delta wing fixed-wing|0.5 km2 (10 km from take off location)|Video, photos, orthomosaic (MP4, JPEG GeoTIFF)|![](/images/Technical-Guidelines3.jpg)|Near-real-time information collected by flying the UAV beyond line of sight for post-disaster reconnaissance, situational awareness, damage assessment, post-disaster mapping, etc.|
-|Bathymetry (Challenge 5) Multirotor|0.5 km2|Point cloud and DEM (GeoTIFF)|![](/images/Technical-Guidelines4.png)|Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.|
+|Bathymetry (Challenge 5) Multirotor|0.5 km2|Point cloud and DEM (GeoTIFF)|![](/images/Technical-Guidelines4.jpg)|Tsunami and storm surge modeling, coastal inundation/erosion modeling, reef monitoring, etc.|
 
 
 _Source: _ _UAV4Resilience 2017_

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UAV Mapping Guidelines</title>
@@ -115,7 +115,7 @@ Processing software and hardware Most software used to process UAV data is devel
       
       <guid>/pages/10-handling-project-management/</guid>
       <description>Managing a UAV project requires attention to a number of concerns:
- Lithium batteries. Lithium polymer (LiPo) batteries used in UAVs are highly flammable and must be transported in LiPo safety bags when traveling. On commercial flights, passengers are allowed a maximum of two 100–160 Wh batteries, which must be kept in carry-on luggage.1 Quantities of smaller batteries are not usually limited, but some airlines or airport security staff may take away what they perceive as excessive quantities of batteries.</description>
+  Lithium batteries. Lithium polymer (LiPo) batteries used in UAVs are highly flammable and must be transported in LiPo safety bags when traveling. On commercial flights, passengers are allowed a maximum of two 100–160 Wh batteries, which must be kept in carry-on luggage.1 Quantities of smaller batteries are not usually limited, but some airlines or airport security staff may take away what they perceive as excessive quantities of batteries.</description>
     </item>
     
     <item>
@@ -144,8 +144,7 @@ Processing software and hardware Most software used to process UAV data is devel
       <guid>/pages/annex-1/</guid>
       <description>Applying for Approvals in Fiji and Tonga for October 2017 UAV Field Testing Fiji
 CAA Fiji outlined the following path to obtaining necessary approvals for UAV operation:
- Submit completed Form OP138 to CAA, accompanied by the following documents:
- Proposed pilots’ remote pilot licenses Letter of intent from the sponsoring organization, such as the World Bank UAV operations manual Third-party liability insurance cover letter  Obtain permission from the operator of the airspace—i.</description>
+ Submit completed Form OP138 to CAA, accompanied by the following documents:   Proposed pilots’ remote pilot licenses Letter of intent from the sponsoring organization, such as the World Bank UAV operations manual Third-party liability insurance cover letter  Obtain permission from the operator of the airspace—i.</description>
     </item>
     
   </channel>

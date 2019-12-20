@@ -1,194 +1,120 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../scss/main.css">
+   <title>UAV Mapping Guidelines</title>
+</head><body data-site-url='https://https://uav-guidelines.openaerialmap.org/'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://https://uav-guidelines.openaerialmap.org//svg/hot-logo-red.svg" alt="hot logo"><a href="https://https://uav-guidelines.openaerialmap.org/" class="no-underline"><h4 class="title site-title">UAV Mapping Guidelines</h4></a>
+        <div>
+        
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
 
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UAV Mapping Guidelines</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../normalize.min.css">
-
-<link rel="stylesheet" href="../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="../../">
-        <img class="logo" src="../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>UAV Mapping Guidelines</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../pages/00-acknowlegements-abbreviations/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" href="../../pdfs/UAV_Mapping_Guidelines.pdf">Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    <div class="nav-right">
-    
-    
-    
-    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
-    <div class="search-results">
-      <ul class="results-list"></ul>
-    </div>
-    
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="../../" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/00-acknowlegements-abbreviations/">
-    Acknowlegements</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/01-objective/">
-    1. Objective</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/02-uavs-as-a-game-changer-for-pics/">
-    2. UAVs as a Game Changer</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-securing-uav-flight/">
-    3. Securing UAV Flight</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/04-determining-whether-the-uav/">
-    4. UAV Evaluation</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/05-choosing-the-right-uav/">
-    5. Choosing the Right UAV Platform</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-choosing-the-sensor/">
-    6. Choosing the Sensor</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/07-preparing-for-the-uav-mission/">
-    7. Preparing for the UAV Mission</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/08-managing-work-flow/" class="active">
-    8. Managing Work Flow in the Field</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/09-after-the-flight/">
-    9. After the Flight: Processing the Data</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/10-handling-project-management/">
-    10. Handling Project Management</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/11-case-study/">
-    11. Case Study</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/12-conclusions/">
-    12. Conclusions</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/annex-1/">
-    Annex 1</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../svg/menu.svg" />
-  </label>
-  <strong>
-    8. Managing Work Flow in the Field</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>8. Managing Work Flow in the Field</h1>
-    <a href="../../pdfs/08-managing-work-flow.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">UAV Mapping Guidelines</h2> 
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Search documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+
+
+<div class="accordion accordion--open">
+    Pages
+</div>
+<div class="panel panel--open">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/00-acknowlegements-abbreviations/" class="menu-link">Acknowlegements</a></li>
+                    
+                        <li class="page"><a href="../../pages/01-objective/" class="menu-link">1. Objective</a></li>
+                    
+                        <li class="page"><a href="../../pages/02-uavs-as-a-game-changer-for-pics/" class="menu-link">2. UAVs as a Game Changer</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-securing-uav-flight/" class="menu-link">3. Securing UAV Flight</a></li>
+                    
+                        <li class="page"><a href="../../pages/04-determining-whether-the-uav/" class="menu-link">4. UAV Evaluation</a></li>
+                    
+                        <li class="page"><a href="../../pages/05-choosing-the-right-uav/" class="menu-link">5. Choosing the Right UAV Platform</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-choosing-the-sensor/" class="menu-link">6. Choosing the Sensor</a></li>
+                    
+                        <li class="page"><a href="../../pages/07-preparing-for-the-uav-mission/" class="menu-link">7. Preparing for the UAV Mission</a></li>
+                    
+                        <li class="page"><a href="../../pages/08-managing-work-flow/" class="menu-link menu-link--active">8. Managing Work Flow in the Field</a></li>
+                    
+                        <li class="page"><a href="../../pages/09-after-the-flight/" class="menu-link">9. After the Flight: Processing the Data</a></li>
+                    
+                        <li class="page"><a href="../../pages/10-handling-project-management/" class="menu-link">10. Handling Project Management</a></li>
+                    
+                        <li class="page"><a href="../../pages/11-case-study/" class="menu-link">11. Case Study</a></li>
+                    
+                        <li class="page"><a href="../../pages/12-conclusions/" class="menu-link">12. Conclusions</a></li>
+                    
+                        <li class="page"><a href="../../pages/annex-1/" class="menu-link">Annex 1</a></li>
+                    
+                </ul>
+            </div>
+
+<a class="pdf-download"  
+    
+    href="../../pdfs/UAV_Mapping_Guidelines.pdf">
+    
+
+    <div>
+        <div class="title">Download the entire file</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/dfaff2fe5dc89364788a493e7843584b5452c5dc" class="sub-title sub-title-14" title='Last modified June 12, 2019 by Russ Biggs' target="_blank" rel="noopener">
+      Last modified: June 12, 2019
     </a>
-  </div><p>UAVs are often small enough to be carried in backpacks, but usually a motor vehicle such as a small pickup truck is used to carry the associated equipment, including the survey equipment (base station) if GCPs are being used. A vehicle also provides shelter in case of inclement weather, and the vehicle battery or cigarette lighter plug can be used to recharge UAV batteries and laptops in the field during long survey missions.</p>
-
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">8. Managing Work Flow in the Field</h1><p>UAVs are often small enough to be carried in backpacks, but usually a motor vehicle such as a small pickup truck is used to carry the associated equipment, including the survey equipment (base station) if GCPs are being used. A vehicle also provides shelter in case of inclement weather, and the vehicle battery or cigarette lighter plug can be used to recharge UAV batteries and laptops in the field during long survey missions.</p>
 <p>Teams in the field should include at least two people: a pilot who monitors the UAV’s flight on the computer screen, and a pilot who maintains sight of the UAV and surrounding airspace at all times while flying within line of sight.</p>
-
-<p>At the takeoff location, the team’s designated safety officer ensures that all precautions are taken before, during, and after flights.<sup class="footnote-ref" id="fnref:14"><a href="#fn:14">1</a></sup> At this point, it is assumed that all legal prerequisites to fly a UAV have been obtained, including special permissions and communications instructions, especially those applicable during an active disaster response scenario. To identify cases where New Zealand–based UAV regulations require special permissions, please refer to the Airshare website (Airshare n.d.).</p>
-
+<p>At the takeoff location, the team’s designated safety officer ensures that all precautions are taken before, during, and after flights.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> At this point, it is assumed that all legal prerequisites to fly a UAV have been obtained, including special permissions and communications instructions, especially those applicable during an active disaster response scenario. To identify cases where New Zealand–based UAV regulations require special permissions, please refer to the Airshare website (Airshare n.d.).</p>
 <p>A generic pre-flight <strong>safety checklist</strong> can include the following steps:</p>
-
 <ul>
 <li>Verify proper distance from residential areas, people, overhead power lines, trees, etc.</li>
 <li>Inspect takeoff site; identify alternative options for landing</li>
@@ -201,19 +127,12 @@ https://github.com/hotosm/hugo-book
 <li>Ensure safe distance between aircraft and any bystander</li>
 <li>Verify flight plan perimeters.</li>
 </ul>
-
 <p>Most commercial UAV platforms come with a safety pre-flight and post-flight checklist that should be followed. At every step from launch to landing, the designated safety officer should coordinate actions and communications (with loud voice signals). While in flight, the aircraft should be kept within visible range unless special permission has been obtained and tracking equipment is available for flying beyond the visual line of sight. After each flight the aircraft should be inspected for any anomaly.</p>
-
 <p><strong>Light and weather conditions are important.</strong> To minimize shadows in the image, it is best to fly during the day when the sun angle is high. The color depth and tone of imagery is also best when collected in full sun. Clouds, even light haze, obscure the signal in the scene and make use of the imagery challenging, if not impossible. High or even moderate winds may likewise pose difficulties, as many light UAVs do not operate well in such conditions. The day and time chosen to collect the imagery is therefore critical. Data collection should ideally be done between 10 a.m. and 2 p.m. to minimize shadows and on a clear day to minimize haze and cloud effects; it should also take into account the limitations of the platform with respect to wind and operating range (Figure 11).</p>
-
-<p><img src="../../images/Technical-Guidelines12.jpg" alt="alt_text" /></p>
-
+<p><img src="../../images/Technical-Guidelines12.jpg" alt="alt_text"></p>
 <p><em>Figure 11. Checking conditions and following safety measures in the field.</em></p>
-
 <p><em>Source:</em> <em>PacDID. 2017</em></p>
-
 <p>It is always important to modify settings to suit local lighting conditions prior to each flight. Preferred sensor settings are listed below** **(in order of preference where more than one setting appears).</p>
-
 <ul>
 <li>Focal length: fixed</li>
 <li>Operating mode: manual, shutter priority (shutter 1/1000–1/1500)</li>
@@ -224,81 +143,65 @@ https://github.com/hotosm/hugo-book
 <li>Optical/digital stabilization: off</li>
 <li>Metering mode: full-frame metering rather than “spot” metering (to reduce exposure issues)</li>
 </ul>
-
 <p>The most important step before starting a UAV mission is to upload the flight plan to the aircraft onboard computer. This can be done in different ways, but usually from a laptop or mobile device that provides a screen visualization of flight patterns over preexisting imagery or maps. This visual check allows for verification of the home (takeoff) setting and its relative position to the flight extent.</p>
-
 <p>Once the flight plan has been uploaded into the aircraft computer and final checks have been performed (and all necessary approvals have been obtained and communicated), the UAV is cleared for takeoff.</p>
-
 <p><strong>It is important to note that all mapping UAVs must be flown in autonomous mode following a predefined flight plan in order to obtain images suitable for creating a mosaic</strong>. In general, manual flights where pilots maneuver the aircraft remotely cannot ensure that the correct pattern is being followed and enough overlap is maintained between frames and flight lines.</p>
-
 <p>After takeoff, the aircraft should be checked for any anomaly (through visual and telemetry feedback) before starting the autonomous mission. The pilot should always be ready to take over in manual control mode if needed.</p>
-
 <p>Once the UAV has landed, images and GPS logs are transferred to a local device either through the radio link or by physically removing the storage medium (typically an SD card) from the aircraft for copying files to a laptop. When multiple flights are planned, data are transferred at the end of the mission and only the battery is swapped between flights. It is still important to sample image quality by transferring a few full resolution files from the camera to a device used for inspection. In case of any issue, the camera settings should be checked and adjusted.</p>
-
-<p><img src="../../images/Technical-Guidelines13.jpg" alt="alt_text" /></p>
-
+<p><img src="../../images/Technical-Guidelines13.jpg" alt="alt_text"></p>
 <p><em>Figure 12. Launch of a multirotor UAV, which requires less open space than for a fixed wing.</em></p>
-
 <p><em>Credit:</em> <em>UAV4Resilience 2017</em></p>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:14">The safety officer may be a third person, or one of the two pilots who takes on this additional role. The safety officer is responsible for ensuring all pre-flight checks are followed and that conditions to fly are appropriate (i.e., wind and cloud ceiling at minimum thresholds, clear skies). Depending on the procedures that have been agreed, the safety officer may also be responsible for communications with ATC for airspace deconfliction.
- <a class="footnote-return" href="#fnref:14"><sup>[return]</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>The safety officer may be a third person, or one of the two pilots who takes on this additional role. The safety officer is responsible for ensuring all pre-flight checks are followed and that conditions to fly are appropriate (i.e., wind and cloud ceiling at minimum thresholds, clear skies). Depending on the procedures that have been agreed, the safety officer may also be responsible for communications with ATC for airspace deconfliction. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
+</section>
 </div>
-</article>
 
-      
-<div class="align-center book-git-footer justify-between">
+
+
+
     
-  <div>
-    <a href="https://github.com/hotosm/uav-mapping-guidelines/edit/master/content/pages/08-managing-work-flow.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/uav-mapping-guidelines/commit/dfaff2fe5dc89364788a493e7843584b5452c5dc" title='Last modified June 12, 2019 22:00 UTC by Russ Biggs' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jun 12, 2019
-    </a>
-  </div>
-  
-
-</div>
+     
+    
 
 
+
+
+<a class="next-page" href="../../pages/09-after-the-flight/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">9. After the Flight: Processing the Data</div>
     </div>
+    <img src="../../svg/forward-arrow.svg" alt="">
+</a>
 
+
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/uav-mapping-guidelines" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-  <script src="../../js/search.js"></script>
-  
-</body>
-
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
+        <nav id="TableOfContents"></nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/uav-mapping-guidelines/edit/master/content/en/pages/08-managing-work-flow.md" class="sub-title sub-title-12 toc-item"> <img src="../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a 
+    
+    href="../../pdfs/08-managing-work-flow.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../svg/download.svg" class="download-icon" alt="">Download this page</a>
+</div></aside>
+</div>
+<script src="../../js/main.js"></script>
+<script src="../../js/search.js"></script>
+<script src="../../js/toc.js"></script></body>
 </html>

@@ -12,3 +12,4 @@ The report offers the following key messages:
 *   To ensure safety during flying operations, regulations and air traffic control procedures need to be clear and understood and must be rehearsed before emergency conditions arise (page 10). 
 *   To expedite licensing and regulatory processes and reduce costs, it helps to use local service providers that specialize in the mapping areas of interest within the country. Capacity building of in-country actors ensures that needed skill sets are available on short notice (page 37).
 *   Power and battery management for UAVs and for ground control stations can be a challenge in the field if not planned thoroughly in advance of activities (page 36). 
+

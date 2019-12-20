@@ -1,14 +1,14 @@
 languageCode = "en-us"
 title = "UAV Mapping Guidelines"
-theme = "book"
+theme = "hotdocs"
 DefaultContentLanguage = "en"
 relativeurls = true
 enableGitInfo = true
 
 [params]
-    BookRepo = "https://github.com/hotosm/uav-mapping-guidelines"
-    BookShowToC = false
-    BookEditPath = "/edit/master/content/"
+    DefaultContentLanguage = "en"
+    GithubRepo = "https://github.com/hotosm/uav-mapping-guidelines"
+    SiteURL = "https://https://uav-guidelines.openaerialmap.org/"
 
 [imaging]
     resampleFilter = "box"

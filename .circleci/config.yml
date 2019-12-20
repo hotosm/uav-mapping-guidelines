@@ -60,9 +60,6 @@ jobs:
       - run: 
           name: list files in public
           command: ls public
-      - run: 
-          name: list files in pdf-build
-          command: ls pdf-build
       - persist_to_workspace:
           root: .
           paths: [public, pdf-build]
@@ -75,7 +72,11 @@ jobs:
       - attach_workspace:
           at: ~/build
       - run:
-          wget https://fonts.google.com/download?family=Archivo -O ~/archivo.zip && unzip ~/archivo.zip -d ~/.fonts
+          name: install ghostscript
+          command: apt-get update --yes && apt-get install ghostscript --yes
+      - run:
+          name: get archivo font
+          command: wget https://fonts.google.com/download?family=Archivo -O ~/archivo.zip && unzip ~/archivo.zip -d ~/.fonts
       - run: >
           mkdir ~/build/public/pdfs &&
           mkdir ~/build/tmp &&
@@ -117,7 +118,7 @@ jobs:
       - run: touch .nojekyll
       - run: 
           name: Add custom domain
-          command: echo "uav-guidelines.openaerialmap.org" > public/CNAME
+          command: echo "toolbox.hotosm.org" > public/CNAME
       - run:
           name: Install and configure dependencies
           command: |
@@ -126,7 +127,7 @@ jobs:
             git config user.name "ci-build"
       - add_ssh_keys:
           fingerprints:
-            - "bf:31:2a:9e:80:a4:e8:ed:0f:19:ee:9b:09:c1:33:7c"
+            - "48:34:f6:3a:f5:63:c4:b5:2b:89:76:26:ba:d3:79:85"
       - run: 
           name: list files pushed
           command: ls public

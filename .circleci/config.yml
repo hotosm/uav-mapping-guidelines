@@ -118,7 +118,7 @@ jobs:
       - run: touch .nojekyll
       - run: 
           name: Add custom domain
-          command: echo "toolbox.hotosm.org" > public/CNAME
+          command: echo "uav-guidelines.openaerialmap.org" > public/CNAME
       - run:
           name: Install and configure dependencies
           command: |

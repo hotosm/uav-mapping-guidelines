@@ -8,7 +8,7 @@ enableGitInfo = true
 [params]
     DefaultContentLanguage = "en"
     GithubRepo = "https://github.com/hotosm/uav-mapping-guidelines"
-    SiteURL = "https://https://uav-guidelines.openaerialmap.org/"
+    SiteURL = "https://uav-guidelines.openaerialmap.org/"
 
 [imaging]
     resampleFilter = "box"

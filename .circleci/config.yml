@@ -127,7 +127,7 @@ jobs:
             git config user.name "ci-build"
       - add_ssh_keys:
           fingerprints:
-            - "48:34:f6:3a:f5:63:c4:b5:2b:89:76:26:ba:d3:79:85"
+            - "bf:31:2a:9e:80:a4:e8:ed:0f:19:ee:9b:09:c1:33:7c"
       - run: 
           name: list files pushed
           command: ls public
